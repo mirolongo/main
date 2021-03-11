@@ -6,7 +6,6 @@ class Animal{
     public Animal(String name, int age, String breed) {
         this.name = name;
         this.age = age;
-        this.breed = breed;
     }
 
     public String getName() {
@@ -25,11 +24,4 @@ class Animal{
         this.age = age;
     }
 
-    public String getBreed() {
-        return breed;
-    }
-
-    public void setBreed(String breed) {
-        this.breed = breed;
-    }
 }
